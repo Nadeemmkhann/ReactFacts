@@ -1,0 +1,68 @@
+@import url('https://fonts.gstatic.com');
+/* @import url('bgimage.png'); */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
+  background: #282D35;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* 
+body {
+  margin: 0;
+} */
+
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 5px;
+}
+
+.navbar > h3{
+  font-size: large;
+}
+
+.nav-items{
+  /* margin: 5px; */
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #00D8FF;
+  font-weight: bold;
+}
+.nav-items> h2{
+  margin-left: 5px;
+}
+
+header{
+  background-color: #21222A;    
+}
+
+main{
+  padding: 10px 20px;
+  color: white;
+  background-image: url('https://gcdnb.pbrd.co/images/KXfWmBnG7KKX.png?o=1');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: right;
+}
+
+.ul > li{
+  max-width: 400px;
+  line-height: 30px;
+}
+
+.ul > li::marker{
+  color: #00D8FF;
+  font-size: 1.4rem;
+}
